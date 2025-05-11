@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap&family=Great+Vibes&display=swap");
+
+:root {
+  --blanco: #ffffff;
+  --negro: #000000;
+  --primero: #5e007a;
+  --segundo: #9c4dd0;
+  --tercero: #c673f5;
+  --cuarto: #d9aef2;
+}
+
+.body {
+  background-image: url("../assets/images/Fondo-Home.svg");
+  background-color: transparent;
+  height: 2506px;
+  left: 0px;
+  position: static;
+  margin-top: 0px;
+  max-width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/*--------------------------------------------TOP-------------------------------------------------------------------*/
+
+.Top-HomePage {
+  color: var(--negro);
+  position: relative;
+  margin-top: 0px;
+  padding-top: 240px;
+  margin: 0 auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.Top-Textos {
+  grid-row: 1/2;
+  grid-column: 1/3;
+  padding: 1rem;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.Top-Textos p {
+  font-size: 30px;
+  font-size: 30px;
+  margin: 0px 50px;
+}
+
+.Top-Textos h1 {
+  font-size: 90px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.Top-HomePage img {
+  grid-row: 1/2;
+  grid-column: 3/4;
+  width: 90%;
+  margin: auto;
+}
+
+/*--------------------------------------------BODY-------------------------------------------------------------------*/
+
+.Body-HomePage {
+  font-size: large;
+  color: var(--negro);
+  position: relative;
+  margin-top: 50px;
+  padding-top: 110px;
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.Body-TextosUno {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  padding: 1rem;
+  font-size: 35px;
+  padding-top: 120px;
+  align-items: center;
+  text-align: center;
+}
+
+.Body-ImagenUno {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  width: 50%;
+  margin: 10px auto;
+}
+
+.Body-TextosDos {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  padding: 1rem;
+  font-size: 35px;
+  align-items: center;
+  text-align: center;
+}
+
+.Body-ImagenDos {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  width: 50%;
+  margin: auto;
+  padding-top: 160px;
+  padding-left: 35px;
+  justify-content: end;
+}
+
+/*--------------------------------------------TOP-EQUIPO------------------------------------------------------------------*/
+.Top-EquipoPage {
+  padding: 20px;
+}
+
+.Top-TextosEquipo h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.Body-ImagenEquipo {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  width: 75%;
+  margin: auto;
+  padding-top: 50px;
+  padding-left: 150px;
+  justify-content: end;
+}
+
+/*--------------------------------------------BODY-------------------------------------------------------------------*/
+
+.Body-EquipoPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.Body-ImagenIntegrante1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px auto;
+}
+
+.Body-TextosIntegrante1,
+.Body-TextosDos {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.body-TextosIntegrante1 h2,
+.Body-TextosDos h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.Body-ImagenIntegrante2 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+  padding-left: 150px;
+  justify-content: end;
+}
+
+.Body-ImagenIntegrante3 {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+  padding-left: 150px;
+  justify-content: end;
+}
+
+.Body-ImagenIntegrante4 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+  padding-left: 150px;
+  justify-content: end;
+}
+
+/*--------------------------------------------BOTTOM-------------------------------------------------------------------*/
+
+.Bottom-HomePage {
+  padding-top: 150px;
+  text-align: end;
+  font-size: 45px;
+  font-family: "Great Vibes", cursive;
+  color: var(--blanco);
+}
